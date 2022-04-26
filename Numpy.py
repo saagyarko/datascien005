@@ -1,6 +1,6 @@
 #creating arrays from a list
 import numpy as np
-"""mia=np.array([1,4,2,3,5])
+mia=np.array([1,4,2,3,5])
 print(np.array([3.14,4,6,3], dtype='int'))
 print(mia)
 mia1=np.zeros(10, dtype=int)
@@ -44,7 +44,7 @@ print(l8)
 # Create a 3x3 identity matrix
 l9=np.eye(3)
 print(l9)
-"""
+
 #Numpy attribute
 # seed for reproducibility
 #creating multidimensions(1d,2d,3d)
@@ -52,7 +52,7 @@ np.random.seed(0)
 x1=np.random.randint(10, size=6)
 x2=np.random.randint(10, size=(3,4))
 x3=np.random.randint(10, size=(3,4,5))
-"""
+
 print(x3.ndim)
 print(x3.shape)
 print(x3.size)
@@ -61,7 +61,7 @@ print(x3.size)
 print("dtype: ", x3.dtype)
 print(x3.itemsize)
 print(x3.nbytes)
-"""
+
 print(x1)
 print(x2)
 print(x2[0,0])
