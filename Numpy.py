@@ -100,3 +100,13 @@ x11=np.array([1,3,5])
 y11=np.array([5,3,1])
 conc=np.concatenate([x11,y11])
 print(conc)
+
+#Splitting of arrays
+x22=[1,2,3,4,5,6,7,8]
+x1,x2,x3 = np.split(x,[3,3])
+print(x1,x2,x3 )
+
+grid=np.arange(16).reshape(4,4)
+upper, lower = np.vsplit(grid, [2])
+print(upper)
+print(lower)
