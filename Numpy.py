@@ -111,3 +111,12 @@ upper, lower = np.vsplit(grid, [2])
 print(upper)
 print(lower)
 print(x22)
+
+# concatenate along the second axis (zero-indexed)
+np.concatenate([grid, grid], axis=1)
+
+x = np.array([1, 2, 3])
+grid = np.array([[9, 8, 7],
+[6, 5, 4]])
+# vertically stack the arrays
+np.vstack([x, grid])
